@@ -1,0 +1,53 @@
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+    border-radius: 15px;
+  }
+
+  .btn-white {
+    background-color: white;
+    color: black; /* Adjust text color for contrast */
+  }
+  
+  .btn:hover {
+    background-color: darkblue;
+  }
+
+  .btn-white:hover {
+    background-color: green; 
+  }
+  
+  .btn-right {
+  margin-left: auto;
+  
+  }
+  .btn-first {
+    margin-left: auto;
+  }
+  .btn-second {
+    margin-left: auto;
+    }
+
+  .btn-center {
+    justify-content: center ;
+    
+  }
+  .btn-secB1 {
+    justify-content: center ;
+    
+  }
+  .btn-secB2 {
+    justify-content: center ;
+   
+  }
+  @media (min-width: 768px) {
+    .btn {
+      width: auto;
+      height: auto;
+    }
+  }
